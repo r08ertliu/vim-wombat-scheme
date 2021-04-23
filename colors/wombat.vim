@@ -70,7 +70,3 @@ hi Todo ctermfg=101 cterm=none guifg=#857b6f gui=none
 hi! link FoldColumn Folded
 hi! link CursorColumn CursorLine
 hi! link NonText LineNr
-
-" Awesome 80 characters delemiter
-execute "set colorcolumn=" . join(range(81,335), ',')
-hi ColorColumn guibg=#262626 ctermbg=235
